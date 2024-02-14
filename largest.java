@@ -42,7 +42,6 @@ public class Main
 	          case(3):
 	              int x=(a>b)?((a>c)?a:c):((b>c)?b:c);
 	              System.out.print("the largest number is:"+x);
-	           
 	              break;
 	          default:
 	              System.out.println("Enter the valid input:");
@@ -50,4 +49,5 @@ public class Main
 	    }
 	    
 	}
+	in.close();
 }
